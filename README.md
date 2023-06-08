@@ -18,11 +18,11 @@ LaraCars is a car listing website built using the Laravel framework and powered 
 
 To get started with LaraCars, follow these steps:
 
--Clone the repository: git clone https://github.com/kisio/LaraCars.git
--Navigate to the project directory: cd LaraCars
--Install the dependencies: composer install && npm install
--Create a copy of the .env.example file and rename it to .env: cp .env.example .env
--Generate an application key: php artisan key:generate
+-Clone the repository: git clone https://github.com/kisio/LaraCars.git <br>
+-Navigate to the project directory: cd LaraCars<br>
+-Install the dependencies: composer install && npm install<br>
+-Create a copy of the .env.example file and rename it to .env: cp .env.example .env<br>
+-Generate an application key: php artisan key:generate<br>
 -Set up your database connection in the .env file:
 -Set DB_CONNECTION to your preferred database driver (e.g., mysql, sqlite, postgresql)
 -Provide the necessary credentials for your database (DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD)
