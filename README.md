@@ -33,12 +33,12 @@ To get started with LaraCars, follow these steps:
 You should now be able to access the LaraCars website by visiting http://localhost:8000 in your browser.
 ## Usage
 
-->Register a new account or log in if you already have one.
-->Browse the existing car listings or use the search and filtering options to find cars that match your preferences.
-->Click on a listing to view more details about a specific car.
-->If you're interested in purchasing a car or have any inquiries, you can contact the seller through the provided contact information.
-->If you want to list a car for sale, go to your profile dashboard and select the "List a Car" option. Fill in the required information, upload relevant images, and submit the listing.
-->Manage your listings through the dashboard, where you can edit or delete your listings as needed.
+->Register a new account or log in if you already have one.<br>
+->Browse the existing car listings or use the search and filtering options to find cars that match your preferences.<br>
+->Click on a listing to view more details about a specific car.<br>
+->If you're interested in purchasing a car or have any inquiries, you can contact the seller through the provided contact information.<br>
+->If you want to list a car for sale, go to your profile dashboard and select the "List a Car" option. Fill in the required information, upload relevant images, and submit the listing.<br>
+->Manage your listings through the dashboard, where you can edit or delete your listings as needed.<br><br>
 ## 🛠 Skills
 PHP, Laravel, JavaScript, Alpine.js, CSS, TailwinCSS, HTML5,RESTAPI
 
