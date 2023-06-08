@@ -1,7 +1,9 @@
 LaraCars
+#####
 LaraCars is a car listing website built using the Laravel framework and powered by Alpine.js. It provides a platform for users to discover and list cars for sale. The project aims to create an intuitive and user-friendly interface for car enthusiasts to connect and make informed decisions.
 
 Features
+####
 User Registration and Authentication: Users can sign up and log in to access additional features such as listing a car, contacting sellers, and managing their listings.
 Car Listings: Users can create detailed listings for the cars they want to sell, providing information such as title, company, location, price, description, and images.
 Image Upload: The application allows users to upload images of their cars to enhance the visual representation of the listings.
