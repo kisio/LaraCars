@@ -14,9 +14,7 @@ LaraCars is a car listing website built using the Laravel framework and powered 
 -Search and Filtering: Users can easily search for cars based on various criteria such as make, model, location, and price range.
 -Responsive Design: The website is designed to be fully responsive, providing a seamless browsing experience across different devices and screen sizes.
 
-## Installation file:///home/selempo/Pictures/Screenshots/Screenshot%20from%202023-06-08%2020-11-03.png
-file:///home/selempo/Pictures/Screenshots/Screenshot%20from%202023-06-08%2020-11-37.png
-file:///home/selempo/Pictures/Screenshots/Screenshot%20from%202023-06-08%2020-12-14.png
+## Installation 
 
 To get started with LaraCars, follow these steps:
 
