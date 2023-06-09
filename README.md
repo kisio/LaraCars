@@ -40,7 +40,6 @@ You should now be able to access the LaraCars website by visiting http://localho
 ->If you want to list a car for sale, go to your profile dashboard and select the "List a Car" option. Fill in the required information, upload relevant images, and submit the listing.<br>
 ->Manage your listings through the dashboard, where you can edit or delete your listings as needed.<br><br>
 
- ![alt text]file:///home/selempo/Pictures/Screenshots/Screenshot%20from%202023-06-08%2020-11-03.png
 
 
 
