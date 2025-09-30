@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Listing;
 use Illuminate\Http\Request;
+use App\Http\Requests\StoreListingRequest;
 use Illuminate\Validation\Rule;
 
 class ListingController extends Controller
@@ -28,19 +29,8 @@ class ListingController extends Controller
     }
 
     // Store Listing Data
-    public function store(Request $request) {
-        $formFields = $request->validate([
-            'title' => 'required',
-            'company' => [ ],
-            'location' => 'required',
-            'website' => 'required',
-            'email' => ['required', 'email'],
-            'image'=>['required'],
-            'tags' => 'required',
-            'description' => 'required',
-            'price'=>'required'
-
-        ]);
+    public function store(StoreListingRequest $request) {
+        $formFields = $request->validated();
 
         if($request->hasFile('image')) {
             $formFields['image'] = $request->file('image')->store('images', 'public');
@@ -59,24 +49,13 @@ class ListingController extends Controller
     }
 
     // Update Listing Data
-    public function update(Request $request, Listing $listing) {
+    public function update(\App\Http\Requests\UpdateListingRequest $request, Listing $listing) {
         // Make sure logged in user is owner
         if($listing->user_id != auth()->id()) {
             abort(403, 'Unauthorized Action');
         }
-        
-        $formFields = $request->validate([
-            'title' => 'required',
-            'company' => [],
-            'location' => 'required',
-            'image' => 'required',
-            'website' => 'required',
-            'email' => ['required', 'email'],
-            'tags' => 'required',
-            'description' => 'required',
-            'price' => 'required'
-        ]);
-        
+
+        $formFields = $request->validated();
 
         if($request->hasFile('image')) {
             $formFields['image'] = $request->file('image')->store('images', 'public');
